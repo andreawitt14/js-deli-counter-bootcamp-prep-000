@@ -22,8 +22,9 @@ function currentline(katzDeliLine){
   }
   
   else{
+    var numbersAndNames = [];
     for(let i = 0; i < katzDeliLine.length; i++){
-      return "The line is currently:" + i + katzDeliLine[i];
+      numbersAndNames[i] = 
     }
   }
 }
