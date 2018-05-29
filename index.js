@@ -16,14 +16,14 @@ function nowServing(katzDeliLine){
    }
 }
 
-function currentline(katzDeliLine){
-  if(!katzDeliLine.length){
+function currentLine(line){
+  if(!line.length){
     return "The line is currently empty."
   }
   
   else{
     var numbersAndNames = [];
-    for(let i = 0; i < katzDeliLine.length; i++){
+    for(let i = 0; i < line.length; i++){
       numbersAndNames.push(i+1 + ". "+ katzDeliLine[i]);
     }
     
