@@ -5,5 +5,5 @@ function takeANumber(katzDeliLine, Name){
   while(katzDeliLine[i] != Name){
     i++;
   }
-  return "Welcome, " Name ""
+  return "Welcome, " Name " You are number '${i}' in line."
 }
