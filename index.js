@@ -24,7 +24,7 @@ function currentline(katzDeliLine){
   else{
     var numbersAndNames = [];
     for(let i = 0; i < katzDeliLine.length; i++){
-      numbersAndNames[i] = lineNamesandNumbers.push(i+1 + ". "+ line[i])
+      numbersAndNames.push(i+1 + ". "+ line[i])
     }
   }
 }
